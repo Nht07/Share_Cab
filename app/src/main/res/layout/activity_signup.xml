@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:background="@drawable/details">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        android:id="@+id/incorrect"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:width="300sp"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColorHint="#80000000"
+        android:textColor="#000000"
+        android:backgroundTint="#00000000"/>
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:width="300sp"
+        android:gravity="center"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textColorHint="#80000000"
+        android:textColor="#000000"
+        android:backgroundTint="#00000000"/>
+
+    <EditText
+        android:id="@+id/whereto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:width="300sp"
+        android:gravity="center"
+        android:hint="Where to?"
+        android:textColorHint="#80000000"
+        android:textColor="#000000"
+        android:backgroundTint="#00000000"/>
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:width="300sp"
+        android:gravity="center"
+        android:hint="How many people?"
+        android:inputType="number"
+        android:textColorHint="#80000000"
+        android:textColor="#000000"
+        android:backgroundTint="#00000000"/>
+
+    <Button
+        android:id="@+id/Signup"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="461dp"
+        android:layout_marginBottom="223dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        />
+</RelativeLayout>
